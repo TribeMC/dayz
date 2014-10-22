@@ -1,0 +1,40 @@
+name: DayZ
+main: dayZ.V3.main
+version: 1.0
+author: V3lop5
+description: DayZ Plugin vom Server TRIBE
+commands:
+  anleitung:
+    description: Zeigt die Anleitung fuers Game
+  mail:
+    description: Mail zu anderen Spielern
+  top5:
+    description: Zeigt die Top5 an
+  survive:
+    description: Logger dich sicher aus
+  spawn:
+    description: Setzt die Spawns
+  playtime:
+    description: Schaut die Spielzeit nach
+permissions:
+  dayz.admin:
+    default: op
+    description: Admin Prem
+  dayz.premium:
+    default: op
+    description: Premium All
+    children:
+      dayz.heal.premium: true
+      dayz.mail.premium: true
+  dayz.heal.premium:
+    description: Premium Heal
+    default: op
+  dayz.heal.default:
+    description: Default Heal
+    default: true
+  dayz.mail.premium:
+    description: Premium Mail
+    default: op
+  dayz.premium:
+    default: op
+    description: Premium All

@@ -1,0 +1,29 @@
+Config:
+  PaperHeal:
+    TrueFalse: true
+  BloodHeal:
+    TrueFalse: true
+  SpendBlood:
+    TrueFalse: true
+    Time: 60
+  WaterDMG:
+    TrueFalse: true
+  Protection:
+    TrueFalse: true
+    Time: 30
+  world:
+    time: 22000
+    resettime: 10
+  mail:
+    default: 5
+    premium: 10
+  Stats:
+    time: 900
+  Logg:
+    time: 20
+    ztime: 5
+  Water:
+    updatetime: 40
+    waterfull: 20
+    
+  
